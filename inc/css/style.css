@@ -287,6 +287,7 @@ p.create {
 
 .section-nature {
     position: relative;
+    padding-top: 40px;
 }
 
 .nature-links p {
@@ -667,6 +668,61 @@ p.banner-product-content.text-center {
 
 .Featured-section {
     margin-top: 50px;
+}
+
+.product-page .background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 379px;
+}
+
+.product-page p.banner-product-content.text-center {
+    top: 185px;
+    position: absolute;
+    /* left: 50%; */
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* width: 100%; */
+    padding-left: 30px;
+    padding-right: 30px;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: #0c4953;
+    background: #fff;
+    opacity: 0.7;
+    /* height: 114px; */
+    padding: 0px 80px;
+}
+
+.row.filtering-product {
+    padding: 0px 45px;
+}
+
+select.form-select {
+    text-align: end !important;
+    border: none !important;
+    background: none !important;
+    color: #818181;
+    font-size: 14px;
+}
+
+p.txt-start {
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.page-product .featured-images {
+    padding-top: 100px;
+}
+
+.row.filtering-product {
+    background: #dddcda;
+    color: #818181;
 }
 /*------------------------------------------Responsive CSS--------------------------------------------------------------------*/
 
