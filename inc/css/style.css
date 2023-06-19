@@ -228,6 +228,7 @@ h6.banner-slagon {
 h5.banner-heading {
     font-size: 72px;
     color: #1f717f;
+    text-shadow: 0px 0px 8px #FFFFFF;
 }
 
 /*-------------------------------------------------------Second Section Start---------------------------------------------------*/
@@ -324,6 +325,12 @@ p.create {
     left: -336px;
     z-index: 999;
     box-shadow: 1px 1px 7px 4px rgb(0 0 0 / 32%);
+    transition: 0.5s;
+}
+.circle:hover {
+    transform: scale(1.01);
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.81); 
+box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.81);
 }
 
 img.circle-image {
@@ -473,7 +480,8 @@ ul.stay-list {
 }
 
 img.success {
-    max-width: 550px;
+    /* max-width: 550px; */
+    max-width: 100%;
 }
 
 .row.f-product {
@@ -836,12 +844,13 @@ p.txt-start {
         padding-left: 0px;
     }
 
-    img.success {
+    /* img.success {
         padding-bottom: 91px;
         max-width: 100%;
-        margin-left: 107px;
-        margin-top: 56px;
-    }
+        margin: auto;
+        width: 100%;
+        margin-top: 40px;
+    } */
 
     .people-img {
         width: 100%;
@@ -1147,10 +1156,10 @@ p.txt-start {
         width: 100%;
     }
 
-    img.success {
+    /* img.success {
         margin-left: 83px;
         margin-top: 32px;
-    }
+    } */
 
     h2.success-title {
         font-size: 35px;
@@ -1193,10 +1202,10 @@ p.txt-start {
         margin-bottom: 30px;
     }
 
-    img.success {
+    /* img.success {
         margin-left: 117px;
         width: 70%;
-    }
+    } */
 
     .cards-1 {
         padding: 85px;
@@ -1330,10 +1339,10 @@ p.txt-start {
         font-size: 13px;
     }
 
-    img.success {
+    /* img.success {
         margin-left: 40px;
         width: 80%;
-    }
+    } */
 
     .right-side-content {
         padding-left: 20px;
@@ -1475,6 +1484,13 @@ p.txt-start {
 
 .container-fluid.fea-se {
     margin-top: 100px;
+}
+.banner-section .background-image{
+    position: relative;
+}
+.bot_img{
+    position: absolute;
+    bottom: 0;
 }
 
 @media (max-width: 1262px) {
