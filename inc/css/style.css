@@ -58,7 +58,7 @@ ul {
     margin-left: 0;
 } */
 
-.container,
+/* .container,
 .container-fluid,
 .container-lg,
 .container-md,
@@ -67,7 +67,7 @@ ul {
 .container-xxl {
     padding-right: 0;
     padding-left: 0;
-}
+} */
 
 ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
     margin: 0 auto;
@@ -436,15 +436,6 @@ img.blue-move {
     background-size: cover;
 }
 
-img.success {
-    padding-bottom: 91px;
-    margin-left: -65px;
-}
-
-.stay-description {
-    padding-left: 129px;
-    width: 90%;
-}
 
 h2.success-title {
     font-size: 39px;
@@ -472,6 +463,22 @@ ul.stay-list {
     font-weight: 300;
     line-height: 1.8em;
 
+}
+
+.row.t-1.mt-4 {
+    padding: 50px 100px 100px 100px;
+}
+
+.right-bac-image {
+    width: 100%;
+}
+
+img.success {
+    max-width: 550px;
+}
+
+.row.f-product {
+    padding: 0px 70px;
 }
 
 
@@ -515,26 +522,16 @@ p.success-description {
 .cards-1 {
     background: #83ced7;
     padding: 85px;
-    width: 35%;
-    /*width: 107%;
-    padding-bottom: 129px;*/
 }
 
 .cards-2 {
     background: #63aeb7;
     padding: 85px;
-    width: 30%;
-    /*width: 88%;
-    margin-left: 28px;*/
 }
 
 .cards-3 {
     background: #216c75;
     padding: 85px;
-    width: 35%;
-    /*width: 111%;
-    margin-left: -27px;
-    padding-bottom: 129px;*/
 }
 
 h2.highlights {
@@ -574,13 +571,13 @@ i.fa.fa-solid.fa-chevron-right {
 }
 
 .footer-section {
-    background: #29876e;
+    background: #429a87;
     padding-top: 35px;
     padding-bottom: 45px;
 }
 
 img.footer-logo {
-    width: 32%;
+    width: 60%;
 }
 
 i.fa.fa-brands.fa-facebook-f {
@@ -591,17 +588,25 @@ i.fa.fa-brands.fa-facebook-f {
     color: #fff;
 }
 
+i.fa.fa-linkedin {
+    width: 55px;
+    font-size: 42px;
+    padding-top: 20px;
+    padding-left: 25px;
+    color: #fff;
+}
+
 button.footer-button {
     padding: 6px;
     font-size: 14px;
-    width: 125%;
+    width: 192px;
     /* padding-left: 25px; */
     margin-left: 28px;
     border: 1px solid #fff;
     background: none;
     color: #fff;
-    border-radius: 5px;
-    margin-top: 25px;
+    border-radius: 3px;
+    margin-top: 0px;
 }
 
 .last-all {
@@ -621,6 +626,10 @@ button.footer-button {
 
 .footer-left span {
     padding-left: 30px;
+}
+
+.col-sm-12.col-md-6.col-lg-6.col-xl-6.footer-top-right {
+    padding-left: 25px;
 }
 
 
