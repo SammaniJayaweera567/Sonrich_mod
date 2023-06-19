@@ -1337,3 +1337,42 @@ button.footer-button {
 
 
 @media (max-width: 1199.98px) {}
+
+/* Contact page styles */
+.map-Sec iframe{
+    width: 100%;
+    border: 0;
+    height: 300px;
+}
+
+.header_sec {
+    background: #429a87;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+
+.form_sec {
+    background: #fff;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.contact-form button {
+    background: #034f5a;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:hover{
+    color: #fff;
+}
+
+.contact-form button:focus {
+    box-shadow: none;
+}
