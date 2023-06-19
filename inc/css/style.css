@@ -47,16 +47,13 @@ ul {
     margin-bottom: 0;
 }
 
-/* .row>* {
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
+.row {
     padding-right: 0;
     padding-left: 0;
     margin-top: 0;
     margin-right: 0;
     margin-left: 0;
-} */
+}
 
 /* .container,
 .container-fluid,
@@ -724,6 +721,16 @@ p.txt-start {
     background: #dddcda;
     color: #818181;
 }
+
+.map,
+.container-fluid.map-se,
+.container-fluid.stay-se,
+.container-fluid.fea-se,
+.container-fluid.feat-sec,
+.container-fluid.sta-se {
+    padding: 0;
+}
+
 /*------------------------------------------Responsive CSS--------------------------------------------------------------------*/
 
 @media (max-width: 991.98px) {
