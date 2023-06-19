@@ -354,8 +354,6 @@ a.circle-link {
 
 /*---------------------------------------------Featured Product Section Start---------------------------------------------------*/
 .Featured-section {
-    padding-left: 20px;
-    padding-right: 20px;
     margin-top: 175px;
 }
 
@@ -638,8 +636,38 @@ button.footer-button {
 
 
 
+/*Product Page*/
+p.banner-product-content.text-center {
+    top: 300px;
+    /* position: absolute; */
+    /* left: 50%; */
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    /* width: 100%; */
+    padding-left: 30px;
+    padding-right: 30px;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: #0c4953;
+    background: #fff;
+    opacity: 0.7;
+    height: 114px;
+    padding: 0px 80px;
+}
 
+.product-page .banner-content {
+    top: 0;
+    position: relative;
+    left: 0px;
+}
 
+.Featured-section {
+    margin-top: 50px;
+}
 /*------------------------------------------Responsive CSS--------------------------------------------------------------------*/
 
 @media (max-width: 991.98px) {
